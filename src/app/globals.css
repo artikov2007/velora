@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./marketplace.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-mono: ui-monospace, monospace;
+}
